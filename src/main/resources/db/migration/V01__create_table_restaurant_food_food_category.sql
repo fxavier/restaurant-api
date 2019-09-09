@@ -5,15 +5,15 @@ address VARCHAR(500) NOT NULL,
 phone VARCHAR(50) NOT NULL,
 latitude NUMERIC(10, 2),
 longetude NUMERIC(10, 2),
-imageUrl TEXT,
-paymentUrl TEXT,
+image_url TEXT,
+payment_url TEXT,
 PRIMARY KEY(restaurant_id)
 );
 
 CREATE TABLE food_category(
 category_id BIGSERIAL,
 name VARCHAR(50) NOT NULL,
-imageUrl VARCHAR(500),
+image_url TEXT,
 PRIMARY KEY(category_id)
 );
 
